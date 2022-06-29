@@ -1,0 +1,329 @@
+/*!
+ * The Autism Community Walk, Inc.
+ * Senior Web Graphic Designer: Chabelly Cespedes
+ *
+ * Copyright (C) 2018 The Autism Community Walk, Inc., https://
+ */
+
+body {
+}
+.carousel-item {
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#telephonenav, #homefooter, #aboutfooter, #founderfooter, #findfooter, #startfooter, #helpfooter, #photosfooter, #contactfooter, #donatefooter, #fbfooter, #telefooter, #faxfooter, #mailfooter {
+	color: #fff;
+	text-decoration: none;
+}
+#telephonenav:hover, #homefooter:hover, #aboutfooter:hover, #founderfooter:hover, #findfooter:hover, #startfooter:hover, #helpfooter:hover, #photosfooter:hover, #contactfooter:hover, #donatefooter:hover, #fbfooter:hover, #telefooter:hover, #faxfooter:hover, #mailfooter:hover {
+	opacity: 0.6;
+}
+.portfolio-item {
+	margin-bottom: 30px;
+}
+.space {
+	padding: 20px;
+}
+hr#small, hr#small1, hr#small4, hr#small5  {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: left;
+	margin-left: 0px;
+}
+.blockquote {
+	/* padding: .5rem 1rem; */
+	margin-bottom: 1rem;
+	border-left: .25rem solid #8BC34A;
+	background-color: #f8f9fa;
+}
+
+/*--Responsive--*/
+@media (min-width: 1200px) {
+.topnav {
+	background-color: #232751;
+	color: #fff;
+	padding: 30px;
+}
+.col-lg-4.col-md-4.col-sm-12#top {
+	text-align: right;
+}
+.topwrapper {
+	padding: 30px;
+	background: linear-gradient(#3f51b5e3, #3f51b5e3), url("../img/grass.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+}
+.topwrapper1 {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+.topwrapper2 {
+	padding: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+.sectionuno {
+	padding: 30px;
+	background-color: #fff;
+}
+.sectiondos {
+	padding: 30px;
+	background-color: #fff;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: center;
+}
+footer.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #252525;
+	color: #fff;
+}
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #212121;
+	color: #505050;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.topnav {
+	background-color: #232751;
+	color: #fff;
+	padding: 30px;
+}
+.col-lg-4.col-md-4.col-sm-12#top {
+	text-align: right;
+}
+.topwrapper {
+	padding: 30px;
+	background: linear-gradient(#3f51b5e3, #3f51b5e3), url("../img/grass.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+}
+.topwrapper1 {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+.topwrapper2 {
+	padding: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+.sectionuno {
+	padding: 30px;
+	background-color: #fff;
+}
+.sectiondos {
+	padding: 30px;
+	background-color: #fff;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: center;
+}
+footer.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #252525;
+	color: #fff;
+}
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #212121;
+	color: #505050;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.topnav {
+	background-color: #232751;
+	color: #fff;
+	padding: 30px;
+}
+.col-lg-4.col-md-4.col-sm-12#top {
+	text-align: right;
+}
+.topwrapper {
+	padding: 30px;
+	background: linear-gradient(#3f51b5e3, #3f51b5e3), url("../img/grass.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+}
+.topwrapper1 {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+.topwrapper2 {
+	padding: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+.sectionuno {
+	padding: 30px;
+	background-color: #fff;
+}
+.sectiondos {
+	padding: 30px;
+	background-color: #fff;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: center;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: center;
+}
+footer.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #252525;
+	color: #fff;
+}
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #212121;
+	color: #505050;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+.topnav {
+	background-color: #232751;
+	color: #fff;
+	padding: 30px;
+}
+nav.navbar{
+		text-align: center;
+}	
+.col-lg-4.col-md-4.col-sm-12#top {
+	text-align: center;
+	padding-top: 10px;
+}
+.topwrapper {
+	padding: 30px;
+	background: linear-gradient(#3f51b5e3, #3f51b5e3), url("../img/grass.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+}
+.topwrapper1 {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+.topwrapper2 {
+	padding: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+.sectionuno {
+	padding: 30px;
+	background-color: #fff;
+}
+.sectiondos {
+	padding: 30px;
+	background-color: #fff;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: center;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: left;
+}
+footer.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #252525;
+	color: #fff;
+}
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #212121;
+	color: #505050;
+}
+}
+
+/* MOBILE */
+@media (max-width: 575px) {
+.topnav {
+	background-color: #232751;
+	color: #fff;
+	padding: 30px;
+}
+nav.navbar{
+		text-align: center;
+}	
+.col-lg-4.col-md-4.col-sm-12#top {
+	text-align: center;
+	padding-top: 10px;
+}
+.topwrapper {
+	padding: 30px;
+	background: linear-gradient(#3f51b5e3, #3f51b5e3), url("../img/grass.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+}
+.topwrapper1 {
+	padding: 30px;
+	background-color: #fff;
+}
+.topwrapper2 {
+	padding: 30px;
+	background-color: #fff;
+	text-align: center;
+}
+.sectionuno {
+	padding: 30px;
+	background-color: #fff;
+}
+.sectiondos {
+	padding: 30px;
+	background-color: #fff;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: center;
+}
+hr#small2, hr#small3 {
+	width: 5%;
+	border: 1px solid #8BC34A;
+	text-align: center;
+}
+footer.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #252525;
+	color: #fff;
+	text-align: center;
+}
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #212121;
+	color: #505050;
+}
+}
+/*--Responsive--*/
